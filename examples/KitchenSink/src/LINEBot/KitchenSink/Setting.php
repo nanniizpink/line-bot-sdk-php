@@ -1,20 +1,6 @@
 <?php
 
-/**
- * Copyright 2016 LINE Corporation
- *
- * LINE Corporation licenses this file to you under the Apache License,
- * version 2.0 (the "License"); you may not use this file except in compliance
- * with the License. You may obtain a copy of the License at:
- *
- *   https://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations
- * under the License.
- */
+//** Copyright 2016 LINE Corporation
 
 namespace LINE\LINEBot\KitchenSink;
 
@@ -32,8 +18,8 @@ class Setting
                 ],
 
                 'bot' => [
-                    'channelToken' => getenv('LINEBOT_CHANNEL_TOKEN') ?: '<your channel token>',
-                    'channelSecret' => getenv('LINEBOT_CHANNEL_SECRET') ?: '<your channel secret>',
+                    'channelToken' => getenv('LINEBOT_CHANNEL_TOKEN') ?: 'ndNiKsAlmhsqr2Tm6Bov8gv67zZirO8Gk2Xhe52VjubjZw/easIibl6I4ft/bfG0Pq5peRO4AwKmIz5awqcI/JlOw2gqeVy4wAjvIr1pm6tbmVNmOuLYpB0b29mFr1bdk/B9LRWewgJTFqO0FDIIbAdB04t89/1O/w1cDnyilFU=',
+                    'channelSecret' => getenv('LINEBOT_CHANNEL_SECRET') ?: '3f6d430fa381af1e4ada0b42e07d3f33',
                 ],
 
                 'apiEndpointBase' => getenv('LINEBOT_API_ENDPOINT_BASE'),
